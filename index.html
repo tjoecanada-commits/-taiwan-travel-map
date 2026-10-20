@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taiwan Travel Guide Interactive Map</title>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: #061522;
+  }
+
+  .map-container {
+    position: relative;
+    width: 100%;
+    max-width: 1003px;
+    margin: 0 auto;
+  }
+
+  .map-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .city {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    border-radius: 8px;
+    background: transparent;
+    transition: background 0.2s;
+  }
+
+  .city:hover,
+  .city:focus-visible {
+    background: rgba(255, 193, 7, 0.25);
+    outline: 2px solid #ffc107;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="map-container">
+
+  <img src="TW%20Sat%20Map%20%2B%20Labels.png"
+       alt="Map of Taiwan showing eight cities">
+
+  <!-- Taipei -->
+  <a class="city"
+     href="https://sites.google.com/view/taiwantravelguide/taipei"
+     target="_top"
+     aria-label="Visit Taipei"
+     style="left:49%; top:4%; width:24%; height:9%;">
+  </a>
+
+  <!-- Hsinchu -->
+  <a class="city"
+     href="https://sites.google.com/view/taiwantravelguide/hsinchu"
+     target="_top"
+     aria-label="Visit Hsinchu"
+     style="left:27%; top:13%; width:27%; height:8%;">
+  </a>
+
+  <!-- Taichung -->
+  <a class="city"
+     href="https://sites.google.com/view/taiwantravelguide/taichung"
+     target="_top"
+     aria-label="Visit Taichung"
+     style="left:7%; top:28%; width:34%; height:9%;">
+  </a>
+
+  <!-- Hualien -->
+  <a class="city"
+     href="https://sites.google.com/view/taiwantravelguide/hualien"
+     target="_top"
+     aria-label="Visit Hualien"
+     style="left:65%; top:35%; width:33%; height:8%;">
+  </a>
+
+  <!-- Tainan -->
+  <a class="city"
+     href="https://sites.google.com/view/taiwantravelguide/tainan"
+     target="_top"
+     aria-label="Visit Tainan"
+     style="left:2%; top:63%; width:28%; height:8%;">
+  </a>
+
+  <!-- Kaohsiung -->
+  <a class="city"
+     href="https://sites.google.com/view/taiwantravelguide/kaohsiung"
+     target="_top"
+     aria-label="Visit Kaohsiung"
+     style="left:0%; top:72%; width:30%; height:8%;">
+  </a>
+
+  <!-- Pingtung -->
+  <a class="city"
+     href="https://sites.google.com/view/taiwantravelguide/pingtung"
+     target="_top"
+     aria-label="Visit Pingtung"
+     style="left:12%; top:76%; width:28%; height:8%;">
+  </a>
+
+  <!-- Taitung -->
+  <a class="city"
+     href="https://sites.google.com/view/taiwantravelguide/taitung"
+     target="_top"
+     aria-label="Visit Taitung"
+     style="left:46%; top:68%; width:32%; height:9%;">
+  </a>
+
+</div>
+
+</body>
+</html>
